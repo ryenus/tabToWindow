@@ -22,7 +22,9 @@ const defaults = {
   newWidth:       0.5,
   newHeight:      1.0,
   newLeft:        0.5,
-  newTop:         0.0
+  newTop:         0.0,
+  // whether to show context menu
+  createMenu:     true
 };
 
 // retrieve the storage key for a particular window property
